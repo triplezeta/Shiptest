@@ -50,7 +50,6 @@
 	alt_suit = /obj/item/clothing/suit/ianshirt
 	dcoat = /obj/item/clothing/suit/hooded/wintercoat/captain //WS Edit - Alt Uniforms
 	shoes = /obj/item/clothing/shoes/sneakers/brown
-	head = /obj/item/clothing/head/hopcap
 	backpack_contents = list(/obj/item/storage/box/ids=1,\
 		/obj/item/melee/classic_baton/telescopic=1, /obj/item/modular_computer/tablet/preset/advanced = 1)
 
@@ -72,7 +71,7 @@
 	alt_uniform = null
 	alt_suit = null
 	shoes = /obj/item/clothing/shoes/laceup
-	head = /obj/item/clothing/head/hopcap/nt
+	head = /obj/item/clothing/head/hop/cap
 
 /datum/outfit/job/head_of_personnel/solgov
 	name = "Executive Officer (SolGov)"

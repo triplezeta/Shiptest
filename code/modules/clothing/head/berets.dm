@@ -170,13 +170,6 @@
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	strip_delay = 90
 
-/obj/item/clothing/head/beret/hop
-	name = "head of personnel beret"
-	desc = "A lovely blue Head of Personnel's beret with a silver and white insignia. It smells faintly of paper and dogs."
-	icon_state = "beret_hop"
-	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
-	strip_delay = 90
-
 /obj/item/clothing/head/beret/command
 	name = "command beret"
 	desc = "A modest blue command beret with a silver rank insignia. Smells of power and the sweat of assistants."

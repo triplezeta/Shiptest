@@ -129,6 +129,13 @@
 	name = "security medic cap"
 	icon_state = "secmedsoft"
 
+/obj/item/clothing/head/soft/engi
+	name = "engineer's cap"
+	desc = "It's a baseball hat in tasteful black color. It has Nanotrasen's logo stitched to the front."
+	icon_state = "engisoft"
+	soft_type = "engi"
+	armor = list("melee" = 5, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 60, "fire" = 0, "acid" = 0)
+
 /obj/item/clothing/head/soft/paramedic
 	name = "paramedic cap"
 	desc = "It's a baseball hat with a dark turquoise color and a reflective cross on the top."

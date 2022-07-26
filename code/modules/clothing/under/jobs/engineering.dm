@@ -48,10 +48,11 @@
 	resistance_flags = NONE
 
 /obj/item/clothing/under/rank/engineering/engineer/nt
-	desc = "It's an yellow high visibility jumpsuit worn by Nanotrasen contracted engineers. It has minor radiation shielding."
 	name = "engineer's jumpsuit"
+	desc = "A high-vis turtleneck, worn by Nanotrasen personnel."
 	icon_state = "engine_nt"
-	item_state = "engi_suit"
+	item_state = "engine_nt"
+	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/engineering/engineer/nt/skirt
 	name = "engineer's jumpskirt"

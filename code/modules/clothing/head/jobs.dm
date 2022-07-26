@@ -58,16 +58,29 @@
 	icon_state = "minuteman_general_hat"
 
 //Head of Personnel
-/obj/item/clothing/head/hopcap
-	name = "head of personnel's cap"
-	icon_state = "hopcap"
-	desc = "The symbol of true bureaucratic micromanagement."
+/obj/item/clothing/head/hop
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	dog_fashion = /datum/dog_fashion/head/head_of_personnel
 
-/obj/item/clothing/head/hopcap/nt
-	icon_state = "hopcap_nt"
-	dog_fashion = /datum/dog_fashion/head/head_of_personnel
+/obj/item/clothing/head/hop/cap
+	name = "head of personnel's cap"
+	icon_state = "hopcap"
+	desc = "The symbol of true bureaucratic micromanagement."
+
+/obj/item/clothing/head/hop/fedora
+	name = "head of personnel's fedora"
+	icon_state = "hopfedora"
+	desc = "It has a slip tucked into the band of the hat."
+
+/obj/item/clothing/head/hop/beret
+	name = "head of personnel's beret"
+	icon_state = "hopberet"
+	desc = "A floppy piece of cloth."
+
+/obj/item/clothing/head/hop/flatcap
+	name = "head of personnel's flat cap"
+	icon_state = "hopflat"
+	desc = "This modest-looking hat has been dyed bridge blue, just for you."
 
 //Cargo
 /obj/item/clothing/head/supply_chief

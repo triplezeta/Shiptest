@@ -5234,7 +5234,7 @@
 /obj/item/storage/backpack,
 /obj/item/clothing/gloves/color/white,
 /obj/item/clothing/shoes/laceup,
-/obj/item/clothing/suit/armor/vest/hop,
+/obj/item/clothing/suit/toggle/hop,
 /obj/item/clothing/glasses/sunglasses,
 /obj/item/assembly/flash/handheld,
 /obj/item/storage/box/PDAs,
@@ -5244,7 +5244,7 @@
 	pixel_y = -25
 	},
 /obj/item/clothing/under/rank/command/head_of_personnel/nt,
-/obj/item/clothing/head/hopcap/nt,
+/obj/item/clothing/head/hop/cap,
 /turf/open/floor/carpet/blue,
 /area/ship/bridge)
 "Lk" = (

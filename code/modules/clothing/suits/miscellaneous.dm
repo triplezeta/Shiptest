@@ -638,6 +638,20 @@
 	icon_state = "winterhood_engineer"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 30, "acid" = 45)
 
+/obj/item/clothing/suit/hooded/wintercoat/engineering/hoodie
+	name = "\improper Nanotrasen engineer's hoodie"
+	desc = "A thick, warm jacket, covered in high-vis strips."
+	icon_state = "hoodieengineer"
+	item_state = "hoodieengineer"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 30, "acid" = 45)
+	allowed = list(/obj/item/flashlight, /obj/item/tank/internals/emergency_oxygen, /obj/item/tank/internals/plasmaman, /obj/item/t_scanner, /obj/item/construction/rcd, /obj/item/pipe_dispenser, /obj/item/toy, /obj/item/storage/fancy/cigarettes, /obj/item/lighter)
+	hoodtype = /obj/item/clothing/head/hooded/winterhood/engineering
+
+/obj/item/clothing/head/hooded/winterhood/engineering/hoodie
+	icon_state = "hood_engineer"
+	desc = "A hood, hopefully attached to a hoodie."
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 30, "acid" = 45)
+
 /obj/item/clothing/suit/hooded/wintercoat/engineering/atmos
 	name = "atmospherics winter coat"
 	icon_state = "coatatmos"

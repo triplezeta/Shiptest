@@ -508,3 +508,9 @@
 	name = "solgov waistcoat"
 	desc = "A standard issue waistcoat in solgov colors."
 	icon_state = "solgov_waistcoat"
+
+/obj/item/clothing/accessory/sash
+	name = "command sash"
+	desc = "A thick red sash, for formal occasions."
+	icon_state = "sash"
+	above_suit = TRUE

@@ -84,7 +84,7 @@
 /obj/item/clothing/under/rank/command/head_of_personnel/nt/skirt
 	name = "head of personnel's jumpskirt"
 	desc = "It's a jumpskirt worn by someone who works in the position of \"Head of Personnel\"."
-	icon_state = "hop_nt"
+	icon_state = "hop_nt_skirt"
 	body_parts_covered = CHEST|GROIN|ARMS
 	fitted = FEMALE_UNIFORM_TOP
 	supports_variations = DIGITIGRADE_VARIATION_NO_NEW_ICON | VOX_VARIATION

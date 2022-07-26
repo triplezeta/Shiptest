@@ -32,7 +32,7 @@
 	path = /obj/item/clothing/head/beret/grey
 	role_replacements = list(
 		"Captain" = /obj/item/clothing/head/beret/captain,
-		"Head of Personnel" = /obj/item/clothing/head/beret/hop,
+		"Head of Personnel" = /obj/item/clothing/head/hop/beret,
 		"SolGov Representative" = /obj/item/clothing/head/beret/solgov,
 
 		"Head of Security" = /obj/item/clothing/head/beret/sec/hos,

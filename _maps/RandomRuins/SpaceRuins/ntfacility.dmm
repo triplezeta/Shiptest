@@ -1586,7 +1586,7 @@
 /area/ruin/powered)
 "Pe" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/obj/item/clothing/head/hopcap{
+/obj/item/clothing/head/hop/cap{
 	desc = "It's good to be the king.";
 	icon = 'icons/obj/clothing/hats.dmi';
 	mob_overlay_icon = 'icons/mob/clothing/head.dmi';

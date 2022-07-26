@@ -91,6 +91,11 @@
 	resistance_flags = NONE
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/exo/large
 
+/obj/item/clothing/suit/hazardvest/nt
+	desc = "A grey high-visibility vest with high-vis stripes."
+	icon_state = "hazard_engi"
+	item_state = "hazard_engi"
+
 /obj/item/clothing/suit/toggle/hazard
 	name = "high-visibility jacket"
 	desc = "A highlighter-yellow jacket with reflective stripes."
@@ -349,3 +354,19 @@
 	item_state = "enginseerhood"
 	body_parts_covered = HEAD
 	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
+
+// Hop of Personnel, Kid
+//
+/obj/item/clothing/suit/toggle/hop
+	name = "head of personnel's formal coat"
+	desc = "For when an armoured vest isn't fashionable enough."
+	icon_state = "hopcoat"
+	item_state = "hopcoat"
+	body_parts_covered = CHEST|GROIN|ARMS
+	blood_overlay_type = "coat"
+	armor = list("melee" = 35, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+
+/obj/item/clothing/suit/toggle/hop/Initialize()
+	. = ..()
+	if(!allowed)
+		allowed = GLOB.security_vest_allowed

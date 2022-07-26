@@ -879,7 +879,7 @@
 
 /datum/outfit/ashwalker/heir
 	name ="Ashwalker Heir"
-	head = /obj/item/clothing/head/hopcap
+	head = /obj/item/clothing/head/hop/cap
 	neck = /obj/item/clothing/neck/cloak/head_of_personnel
 	uniform = /obj/item/clothing/under/color/brown
 	belt = /obj/item/storage/belt/sabre

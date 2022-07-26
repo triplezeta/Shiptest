@@ -49,17 +49,17 @@
 	..()
 	new /obj/item/clothing/neck/cloak/head_of_personnel(src)
 	new /obj/item/storage/lockbox/medal/service(src)
-	new /obj/item/clothing/head/beret/hop(src) //WS edit - More Berets
+	new /obj/item/clothing/head/hop/beret(src) //WS edit - More Berets
 	new /obj/item/clothing/under/rank/command/head_of_personnel(src) //WS Edit - Better Command Uniforms
 	new /obj/item/clothing/under/rank/command/head_of_personnel/skirt(src) //WS Edit - Better Command Uniforms
-	new /obj/item/clothing/head/hopcap(src)
+	new /obj/item/clothing/head/hop/cap(src)
 	new /obj/item/cartridge/head_of_personnel(src)
 	new /obj/item/radio/headset/heads/head_of_personnel(src)
 	new /obj/item/clothing/shoes/sneakers/brown(src)
 	new /obj/item/storage/box/ids(src)
 	new /obj/item/storage/box/ids(src)
 	new /obj/item/megaphone/command(src)
-	new /obj/item/clothing/suit/armor/vest/hop(src) //WS edit - Command Resprite 3
+	new /obj/item/clothing/suit/toggle/hop(src)
 	new /obj/item/assembly/flash/handheld(src)
 	new /obj/item/clothing/glasses/sunglasses(src)
 	new /obj/item/gun/energy/e_gun/mini(src) //WS Edit - Gives HoP a mini egun
