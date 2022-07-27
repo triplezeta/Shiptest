@@ -370,3 +370,29 @@
 	. = ..()
 	if(!allowed)
 		allowed = GLOB.security_vest_allowed
+
+////////////////
+// // NT security
+//
+
+/obj/item/clothing/suit/toggle/security
+	name = "security windbreaker"
+	desc = "For when an armoured vest isn't fashionable enough."
+	icon_state = "secbreaker"
+	item_state = "secbreaker"
+	body_parts_covered = CHEST|GROIN|ARMS
+	blood_overlay_type = "armor"
+	armor = list("melee" = 35, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+
+/obj/item/clothing/suit/toggle/security/Initialize()
+	. = ..()
+	if(!allowed)
+		allowed = GLOB.security_vest_allowed
+
+//blargo
+
+/obj/item/clothing/suit/jacket/cargo
+	name = "cargo bomber jacket"
+	desc = "A somewhat warm jacket, for pushing boxes."
+	icon_state = "mailbomberjacket"
+	item_state = "mailbomberjacket"

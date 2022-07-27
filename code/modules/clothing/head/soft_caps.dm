@@ -118,7 +118,7 @@
 
 /obj/item/clothing/head/soft/sec
 	name = "security cap"
-	desc = "It's a robust baseball hat in tasteful red colour."
+	desc = "It's a robust baseball hat in tasteful red colour. It has Nanotrasen's logo stitched on the front."
 	icon_state = "secsoft"
 	soft_type = "sec"
 	armor = list("melee" = 30, "bullet" = 25, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 50)
@@ -131,7 +131,7 @@
 
 /obj/item/clothing/head/soft/engi
 	name = "engineer's cap"
-	desc = "It's a baseball hat in tasteful black color. It has Nanotrasen's logo stitched to the front."
+	desc = "It's a baseball hat in tasteful black color. It has Nanotrasen's logo stitched on the front."
 	icon_state = "engisoft"
 	soft_type = "engi"
 	armor = list("melee" = 5, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 60, "fire" = 0, "acid" = 0)

@@ -27,9 +27,15 @@
 	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
 	alt_covers_chest = TRUE
 
+/obj/item/clothing/under/rank/cargo/nt
+	name = "cargo technician's jumpsuit"
+	desc = "A robust jumpsuit, designed to prevent back injuries when pushing boxes."
+	icon_state = "cargotech_nt"
+	icon_state = "cargotech_nt"
+
 /obj/item/clothing/under/rank/cargo/tech/skirt
 	name = "cargo technician's jumpskirt"
-	desc = "Skiiiiirts! They're comfy and easy to wear"
+	desc = "Skiiiiirts! They're comfy and easy to wear!"
 	icon_state = "cargo_skirt"
 	item_state = "lb_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
